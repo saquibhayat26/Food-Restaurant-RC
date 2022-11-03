@@ -8,7 +8,6 @@ import Login from "./Pages/Login/Login";
 import Signup from "./Pages/Signup/Signup";
 import CheckoutSuccess from "./Pages/CheckoutSuccess/CheckoutSuccess";
 import { useState } from "react";
-
 import { CartProvider } from "./store/cart";
 
 function App() {

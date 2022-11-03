@@ -34,11 +34,6 @@ export const CartProvider = (props) => {
     dispatch({ type: "DECREASE", payload });
   };
 
-  //Function to remove an item from the cart
-  const removeFromCart = (payload) => {
-    dispatch({ type: "REMOVE_ITEM", payload });
-  };
-
   //Function to handle when the user clicks the checkout button
   const handleCheckout = () => {
     dispatch({ type: "CHECKOUT" });
