@@ -1,0 +1,26 @@
+.CheckoutSuccess {
+  display: flex;
+  justify-content: center;
+}
+
+.checkoutWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  margin-top: 6rem;
+  width: 70vw;
+  min-height: 10vh;
+  border-bottom: 1.5px solid rgba(107, 105, 105, 0.341);
+  gap: 1rem;
+}
+
+.checkoutWrapper :first-child {
+  font-size: 2.5rem;
+}
+
+.checkoutWrapper :last-child {
+  width: 100%;
+  text-align: left;
+}

@@ -1,0 +1,43 @@
+.menu {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+}
+
+.menu__wrapper {
+  min-width: 45%;
+  min-height: 60vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.menu__wrapper p {
+  font-size: 3rem;
+  text-align: center;
+  font-weight: 500;
+  color: #2c2c2e;
+  text-transform: capitalize;
+}
+
+.menu__wrapper button {
+  background-color: #3f51b5;
+  border: none;
+  width: 8rem;
+  height: 2.4rem;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  padding: 8px;
+  font-weight: 600;
+  border-radius: 4px;
+  text-align: center;
+  transition: all 0.3s ease-out;
+}
+
+.menu__wrapper button:hover {
+  cursor: pointer;
+  background-color: #23369e;
+}

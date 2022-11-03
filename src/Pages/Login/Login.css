@@ -1,0 +1,81 @@
+.Login {
+  position: relative;
+  width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffffff7a;
+}
+
+.Login__wrapper {
+  background-color: #1c5aec;
+  padding: 1.5rem;
+  max-width: 80%;
+  min-height: 70vh;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  box-shadow: 0 0 4px 2px rgba(0, 0, 0, 0.2);
+}
+
+.Login__top {
+  width: 100%;
+  text-align: center;
+}
+
+.Login__top h2 {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+}
+.Login__top p {
+  color: #ffffff;
+  letter-spacing: 1px;
+  font-size: 18px;
+}
+
+.Login__center {
+  min-width: 100%;
+}
+
+.Login__center form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  margin-bottom: 1rem;
+}
+.Login__center form > input {
+  height: 2.7rem;
+  width: 100%;
+  outline: none;
+  padding: 8px;
+  font-size: 16px;
+  border: none;
+  color: #003bbd;
+}
+
+.Login__btn {
+  height: 2.7rem;
+  width: 100%;
+  background-color: #003bbd;
+  border: none;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 18px;
+  transition: all 0.3s ease-out;
+}
+
+.Login__btn:hover {
+  cursor: pointer;
+  background-color: #002677;
+}
+
+.Login__bottom {
+  color: rgb(255, 255, 255);
+  text-align: center;
+}
